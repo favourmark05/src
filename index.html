@@ -659,12 +659,12 @@
 						<h3>Contact Us for Free</h3>
 						<p>Your voice counts.</p>
 						<form action="POST" data-netlify="true">
-								<input type="text" name="name" class="form-control" placeholder="Full name">
-								<input type="text" name="department" class="form-control" placeholder="Department">
-								<input type="text" name="level" class="form-control" placeholder="Level">
+								<input type="text" name="name" class="form-control" placeholder="Full name" required>
+								<input type="text" name="department" class="form-control" placeholder="Department" required>
+								<input type="text" name="level" class="form-control" placeholder="Level" required>
 								<div class="form-group">
 									<label for="exampleFormControlTextarea1">Your Message</label>
-									<textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+									<textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" required></textarea>
 								  </div>
 								  <button type="submit" value="send message" class="btn btn-success">Send Message</button>
 						  </form>
