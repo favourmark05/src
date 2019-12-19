@@ -3383,3 +3383,11 @@ h6 {
   height: 280px;
   /* width: 200px !important; */
 }
+span{
+  font-weight: bolder !important;
+  font-size: large !important;
+}
+.authr_meta > span {
+  background-color: black;
+  font-size: 20px !important;
+}
