@@ -3391,3 +3391,7 @@ span{
   background-color: black;
   font-size: 20px !important;
 }
+.press{
+  font-size: 15px !important;
+  font-weight: bolder !important;
+}
