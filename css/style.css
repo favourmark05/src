@@ -3395,3 +3395,34 @@ span{
   font-size: 15px !important;
   font-weight: bolder !important;
 }
+
+#tpopup{
+  position:fixed;
+  width:500px;
+  height:500px;
+  background:#fff;
+  left:50%;
+  top:50%;
+  border-radius:5px;
+  margin-left:-290px; 
+  margin-top:-200px; 
+  text-align:center;
+  z-index: 7;
+}
+#tclose{
+  position:absolute;
+  background:black;
+  color:white;
+  right:-20px;
+  top:-20px;
+  border-radius:50%;
+  width:30px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  font-size:8px;
+  font-weight:bold;
+  font-family:'Arial Black', Arial, sans-serif;
+  cursor:pointer;
+  box-shadow:0 0 10px 0 #000;
+}
