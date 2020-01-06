@@ -3404,23 +3404,24 @@ span{
   left:50%;
   top:50%;
   border-radius:5px;
-  margin-left:-290px; 
+  margin-left:-213px; 
   margin-top:-200px; 
   text-align:center;
   z-index: 7;
 }
 #tclose{
   position:absolute;
-  background:black;
-  color:white;
+  background:transparent;
+  color:black;
   right:250px;
-  top:250px;
+  top:200px;
   border-radius:50%;
+  border:10px black;
   width:30px;
   height:30px;
   line-height:30px;
   text-align:center;
-  font-size:8px;
+  font-size:20px;
   font-weight:bold;
   font-family:'Arial Black', Arial, sans-serif;
   cursor:pointer;
