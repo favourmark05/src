@@ -3411,10 +3411,10 @@ span{
 }
 #tclose{
   position:absolute;
-  background:transparent;
+  background:white;
   color:black;
   right:250px;
-  top:200px;
+  top:-20px;
   border-radius:50%;
   border:10px black;
   width:30px;
